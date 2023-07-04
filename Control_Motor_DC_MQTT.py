@@ -1,3 +1,6 @@
+"""
+Programa para controlar el motor mediante MQTT, su velocidad y para poder apagarlo y encenderlo
+"""
 import network
 import time
 from umqtt.simple import MQTTClient
